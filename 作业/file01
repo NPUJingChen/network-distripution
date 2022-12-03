@@ -1,0 +1,221 @@
+@charset "utf-8";
+.textinput {
+    border-width: 1px;
+    border-color: #DDDDDD;
+    border-style: solid;
+    background-color: #FDFDFD;
+    width: 357px;
+    height: 37px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    font-weight: normal;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+ color:    #cccccc;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+ color:    #cccccc;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+ color:    #cccccc;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+ color:    #cccccc;
+}
+#scardpicimg {
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 11px;
+    width: 357px;
+}
+label {
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+    margin-right: 28px;
+}
+label[for="scardpicimg"] {
+    vertical-align: top;
+}
+.button {
+    color: white;
+    background-color: #5a9ce5;
+    width: 150px;
+    height: 37px;
+    border: none;
+    cursor: pointer;
+}
+.textarea {
+    resize: none;
+    border-width: 1px;
+    border-color: #DDDDDD;
+    border-style: solid;
+    background-color: #FDFDFD;
+    width: 357px;
+    height: 196px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 14px;
+    vertical-align: top;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    font-weight: normal;
+}
+.select {
+    border-width: 1px;
+    border-color: #DDDDDD;
+    border-style: solid;
+    background-color: #FDFDFD;
+    width: 383px;
+    height: 37px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    font-weight: normal;
+}
+#step2 {
+    display: none;
+}
+#step3 {
+    display: none;
+}
+label.error{
+    width: 357px;
+    margin-left: 240px;
+    margin-right: 0px;
+    text-align: left;
+    color: red;
+}
+.labelforradio {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+}
+input[type="radio"] {
+    display: none;
+}
+label.fakeradio {
+ background: url(../img/注册7.png) no-repeat center center;
+    background-size: 20px 20px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 2px;
+    vertical-align: middle;
+}
+input[type="radio"]:checked + label.fakeradio {
+ background: url(../img/注册6.png) no-repeat center center;
+    background-size: 20px 20px;
+}
+.list-left {
+    max-width: 600px;
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-align: left;
+    margin: 24px 0px 24px 100px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+.list-right {
+    width: 94px;
+    float: right;
+    vertical-align: middle;
+    margin: 24px 100px 24px 0px;
+}
+.list-td a {
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+    position: relative;
+}
+.list-td {
+    width: 100%;
+    text-align: left;
+    border: 1px solid #ededed;
+}
+.button-small {
+    color: #b3b3b3;
+    border: 1px solid #e7e7e7;
+    cursor: pointer;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+tr:nth-child(odd) td {
+    background-color: #fbfbfb;
+}
+#notice {
+    min-height: 500px;
+    border: 1px solid #E1E1E1;
+    margin-bottom: 32px;
+}
+#noticeTitle {
+    padding-top: 62px;
+    padding-bottom: 52px;
+    border-bottom: 1px solid #E1E1E1;
+    color: black;
+    font: normal bold 24px "Microsoft YaHei";
+}
+#noticeContent {
+    padding: 38px 48px;
+    color: #878787;
+    font-size: 14px;
+    overflow: auto;
+    text-align: justify;
+}
+#noticeContent a {
+    color: #878787;
+}
+#noticeAttachment {
+    text-align: left;
+    margin-left: 48px;
+}
+#noticeAttachment p {
+    margin-left: 38px;
+}
+#noticeAttachment a {
+    color: #7AB0E9;
+    text-decoration: none;
+}
+.nav {
+    text-align: left;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+.nav a {
+    color: #7AB0E9;
+    text-decoration: none;
+}
+#scardpic, #clogopic, #cyyzzpic {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 37px;
+    cursor: pointer;
+}
+
+table {
+    width: 850px;
+    text-align: center;
+}
+th {
+    width: 100px;
+}
+.bindtop {    
+    position: absolute;
+    float: left;
+    margin-left: 35px;
+    margin-top: 25px;
+}
